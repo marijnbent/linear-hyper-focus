@@ -1,0 +1,35 @@
+{
+  "name": "linear-hyper-focus",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marijnbent/linear-hyper-focus.git"
+  },
+  "keywords": [
+    "linear"
+  ],
+  "author": "Marijn Bent",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marijnbent/linear-hyper-focus/issues"
+  },
+  "homepage": "https://github.com/marijnbent/linear-hyper-focus#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.6",
+    "css-loader": "^5.2.6",
+    "mini-css-extract-plugin": "^1.6.2",
+    "postcss": "^8.3.5",
+    "postcss-loader": "^6.1.0",
+    "style-loader": "^3.0.0",
+    "tailwindcss": "^2.2.4",
+    "webpack": "^5.41.0",
+    "webpack-cli": "^4.7.2"
+  }
+}

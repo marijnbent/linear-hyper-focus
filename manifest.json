@@ -1,0 +1,14 @@
+{
+  "name": "Linear Hyper Focus",
+  "manifest_version": 3,
+  "version": "0.2",
+  "permissions": [
+    "tabs"
+  ],
+  "chrome_url_overrides" : {
+    "newtab": "dist/index.html"
+  },
+  "background": {
+    "service_worker": "dist/bundle.js"
+  }
+}
